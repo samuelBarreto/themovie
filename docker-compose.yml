@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  ionic:
+    build: .
+    ports:
+    - "8100:8100"
+    volumes:
+    - ./app/ionicProject:/usr/src/app
+    command: ionic serve
