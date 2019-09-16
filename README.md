@@ -1,4 +1,6 @@
 # docker command
 
-docker run -it govargo/ionic
+install docker-compose
+
+docker-compose up
 
